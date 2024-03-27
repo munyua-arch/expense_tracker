@@ -43,7 +43,7 @@ final List<Widget> _pages = [
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.stacked_bar_chart_outlined), label: 'Transactions'),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Settinds'),
+          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Settings'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'You'),
         ],
       ),

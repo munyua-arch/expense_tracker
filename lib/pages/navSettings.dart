@@ -10,15 +10,8 @@ class Settings extends StatefulWidget {
 class _SettingsState extends State<Settings> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        actions: [
-          IconButton(
-              onPressed: (){},
-              icon: Icon(Icons.logout),
-          ),
-        ],
-      ),
+    return Container(
+      child: Text('Settings Page'),
     );
   }
 }
